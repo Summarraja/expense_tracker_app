@@ -10,7 +10,7 @@ h1{
   background-color:#ffe1d8;
 }
 
-@media (max-width: 320px) {
+@media (max-width: 480px) {
   .App {
     width: 300px;
   }
