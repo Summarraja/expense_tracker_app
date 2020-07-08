@@ -1,9 +1,8 @@
 import React, { useContext } from 'react';
 import './Styles.css';
 import TransactionContext from './TransactionContext';
-import TransactionComponent from './TransactionComponent';
 const deleteTransaction= (index,transactions,setTransactions)=>{
-setTransactions(transactions.filter(element=>transactions.indexOf(element)!=index));   
+setTransactions(transactions.filter(element=>transactions.indexOf(element)!==index));   
 }
 const HistoryComponent = () => {
 
